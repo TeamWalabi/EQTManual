@@ -1,0 +1,14 @@
+site_name: My Tool Documentation
+theme:
+  name: material
+
+nav:
+  - Home: Home.md
+  - Getting Started: Getting-Started.md
+  - Installation: Installation.md
+  - Quick Start: Quick-Start.md
+  - User Guide: User-Guide.md
+  - Configuration: Configuration.md
+  - FAQ: FAQ.md
+  - Troubleshooting: Troubleshooting.md
+  - Changelog: Changelog.md
