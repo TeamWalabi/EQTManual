@@ -1,14 +1,20 @@
-site_name: My Tool Documentation
+site_name: EQT Manual
+site_description: User manual for the Easy Questionnaire Tool
+site_url: https://rmrobbemond-dotcom.github.io/EQTManual/
+
 theme:
   name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
 
 nav:
-  - Home: Home.md
+  - Home: index.md
   - Getting Started: Getting-Started.md
-  - Installation: Installation.md
-  - Quick Start: Quick-Start.md
   - User Guide: User-Guide.md
   - Configuration: Configuration.md
   - FAQ: FAQ.md
-  - Troubleshooting: Troubleshooting.md
   - Changelog: Changelog.md
