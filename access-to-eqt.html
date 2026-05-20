@@ -643,7 +643,48 @@
   <h1>Access to EQT</h1>
 
 <h2 id="registration">Registration</h2>
-<p>Users can request access to the EQT by filling your details in the following <a href="https://wur.az1.qualtrics.com/jfe/form/SV_39J9E6ifdyGg3ZA">form</a>.</p>
+<p>Users can request access to the EQT by filling your details in the following <a href="https://wur.az1.qualtrics.com/jfe/form/SV_39J9E6ifdyGg3ZA">form</a>.
+<button onclick="document.getElementById('accessModal').style.display='block'"
+        class="md-button md-button--primary">
+  Request EQT Access
+</button></p>
+<div id="accessModal"
+     style="display:none;
+            position:fixed;
+            z-index:9999;
+            left:0;
+            top:0;
+            width:100%;
+            height:100%;
+            overflow:auto;
+            background-color:rgba(0,0,0,0.6);">
+
+  <div style="background:white;
+              margin:3% auto;
+              padding:20px;
+              width:90%;
+              max-width:1000px;
+              border-radius:10px;
+              position:relative;">
+
+    <span onclick="document.getElementById('accessModal').style.display='none'"
+          style="position:absolute;
+                 right:20px;
+                 top:10px;
+                 font-size:30px;
+                 cursor:pointer;">
+      &times;
+    </span>
+
+    <iframe
+      src="https://wur.az1.qualtrics.com/jfe/form/SV_39J9E6ifdyGg3ZA"
+      width="100%"
+      height="700"
+      frameborder="0">
+    </iframe>
+
+  </div>
+</div>
 <h2 id="domain-applications">Domain applications</h2>
 <p>The EQT provides access to multiple domains, depending on the specific project and/or intended application.</p>
 <p>Within the agriculture domain, the following projects are currently available:</p>
