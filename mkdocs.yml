@@ -1,9 +1,10 @@
-site_name: EQT Manual
+site_name: Easy Questionnaire Tool Manual
 site_description: User manual for the Easy Questionnaire Tool
 site_url: https://rmrobbemond-dotcom.github.io/EQTManual/
 
 theme:
   name: material
+  logo: assets/logo-ReGeNL-web.png
   features:
     - navigation.sections
     - navigation.top
@@ -13,8 +14,12 @@ theme:
 
 nav:
   - Home: index.md
-  - Getting Started: Getting-Started.md
-  - User Guide: User-Guide.md
-  - Configuration: Configuration.md
-  - FAQ: FAQ.md
-  - Changelog: Changelog.md
+  - Introduction: introduction.md
+  - Process Overview: process-overview.md
+  - Access to EQT: access-to-eqt.md
+  - Create Study: create-study.md
+  - Survey Design: survey-design.md
+  - Export Survey: export-survey.md
+  - Distribute Survey: distribute-survey.md
+  - Data Collection: data-collection.md
+  - Glossary: glossary.md
