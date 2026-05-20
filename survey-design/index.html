@@ -1,0 +1,901 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="User manual for the Easy Questionnaire Tool">
+      
+      
+      
+        <link rel="canonical" href="https://rmrobbemond-dotcom.github.io/EQTManual/survey-design/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>4. Create Survey Design - Easy Questionnaire Tool Manual</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#4-create-survey-design" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Easy Questionnaire Tool Manual" class="md-header__button md-logo" aria-label="Easy Questionnaire Tool Manual" data-md-component="logo">
+      
+  <img src="../assets/logoregenl.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Easy Questionnaire Tool Manual
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              4. Create Survey Design
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Easy Questionnaire Tool Manual" class="md-nav__button md-logo" aria-label="Easy Questionnaire Tool Manual" data-md-component="logo">
+      
+  <img src="../assets/logoregenl.png" alt="logo">
+
+    </a>
+    Easy Questionnaire Tool Manual
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../process-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Process Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../access-to-eqt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Access to EQT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../create-study/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Create Study
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Survey Design
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Survey Design
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="add-survey.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Add Survey
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="harmonised-components.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Harmonised Components
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="edit-survey-content.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Edit Survey Content
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="add-components.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Add Components
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../export-survey/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Export Survey
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../distribute-survey/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Distribute Survey
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-collection/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Collection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../changelog.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Changelog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="4-create-survey-design">4. Create Survey Design</h1>
+<p>To start the data collection phase, a survey design must be created. The survey design serves as the link between data collection process and data storage. It defines the look, feel, and flow of the survey presented to respondents, while also specifying how the collected data is structured and mapped to the underlying data model. This ensures a consistent and well-organized data collection method.</p>
+<p>This section has three sub-sections:</p>
+<p>Adding a new survey to a study</p>
+<p>Selecting relevant harmonised components</p>
+<p>Editing survey content</p>
+<h1 id="41-add-new-survey-to-study">4.1. Add new survey to study</h1>
+<p>A study can contain one or more surveys. New or additional surveys can be added to a study and configured using both custom elements and harmonised components.</p>
+<p>Surveys are managed within the ‘Survey(s)’ section of a study. In this section users can:</p>
+<p>Add a new survey (see arrow, figure 5)</p>
+<p>Open an existing survey using the arrow icon ‘’</p>
+<p>Manage access permissions using the person icon ‘’</p>
+<p>Delete a survey using the bin icon ‘’.</p>
+<p>When a user creates a new survey), they automatically are assigned the role of survey owner and can manage access permissions thereafter.</p>
+<p><strong>Figure 5. Add new survey</strong></p>
+<p><img alt="Figure 5. Add new survey" src="../assets/image1.png" /></p>
+<p>Upon clicking ‘Add new survey’, the library of harmonised components opens. The library contains all available harmonised components that can be used to build a survey.</p>
+<p>A component is a standardized measure used to capture a specific concept in a consistent way across surveys. Each component consists of one or more questions. Questions may be of different types, each with its own configuration and structure, including how it relates to statements and/or response options.</p>
+<p>Components are organized hierarchically into concepts and categories. A concept is an abstract construct representing a characteristic, attribute, or phenomenon that a study aims to measure. A category groups together related concepts.</p>
+<p>Multiple components may exist for the same concept when there are different valid ways to measure it. For example, the component “Wildlife protection” belongs to the concept “Land management”, which is part of the category “Farm socio-economic management”. A category can contain multiple concepts, and a concept can contain multiple components.</p>
+<p>Keywords are used to support quick searching and identification of components within the library. For quick access to the harmonised protocol search, use the binocular ‘’ icon in the navigation bar (see arrow, Figure 6).</p>
+<p><strong>Figure 6. Harmonised protocol search page</strong></p>
+<p><img alt="Figure 6. Harmonised protocol search page" src="../assets/image10.png" /></p>
+<p>There are two modes available in the harmonised protocol search library: search (i) and create (ii) (see arrow, Figure 7).</p>
+<p>To browse available components before selecting them for a survey, use the ‘Search’ mode.</p>
+<p>To select and add components to compose a survey, use the ‘Create’ mode. This mode also provides an alternative way to create or add a new survey (see subsection 4.1).</p>
+<p><strong>Figure 7. Datagrid mode selection</strong></p>
+<p><img alt="Figure 7. Datagrid mode selection" src="../assets/image11.svg" /></p>
+<p>In the ‘Search’ mode, clicking on a desired component opens a pop-up window displaying the component’s metadata. This includes the languages available, links to background documents, and other metadata (Figure 8).</p>
+<p><strong>Figure 8. Metadata of component</strong></p>
+<p><img alt="Figure 8. Metadata of component" src="../assets/image12.png" /></p>
+<p>Periodically, new harmonised components are added to the harmonised protocol search. New harmonised components are added to the library on a regular basis. The library provides an overview of available components and their structure. The metadata associated with each component can be used to assess its relevance and suitability for inclusion in a survey.</p>
+<h1 id="42-select-relevant-harmonised-components">4.2. Select relevant harmonised components</h1>
+<p>To make a component selection, the data grid mode must be switched to ‘Create’.</p>
+<p>The first step to create a survey is selecting relevant harmonised components using the check box next to each component. Selected components are displayed in the right-hand column. This allows users to switch efficiently between Search and Create modes without losing their selections.</p>
+<p>Once all desired components have been selected, click the ‘Create’ survey button. A dialog will appear prompting you to enter the required survey details (Figure 9).</p>
+<p>Provide the following information:</p>
+<p>Survey language(s) (required)</p>
+<p>Survey name</p>
+<p>Selected study (verify that the correct study is selected)</p>
+<p>After completing these fields, click ‘Create’ to generate the survey.</p>
+<p>Please note that the ‘Create’ button will only become available after at least one survey language has been selected.</p>
+<p><strong>Figure 9. Create survey</strong></p>
+<p><img alt="Figure 9. Create survey" src="../assets/image13.svg" /></p>
+<h1 id="43-edit-survey-content">4.3. Edit survey content</h1>
+<p>Survey content can be configured to meet the requirements of a specific study. This subsection describes how to view, edit, and extend survey content.</p>
+<h1 id="431-survey-characteristics">4.3.1. Survey characteristics</h1>
+<p>Before editing the survey structure, the key elements of a survey are defined below (Table 2).</p>
+<p>Table 2. Description of survey characteristics</p>
+<h1 id="432-survey-content">4.3.2. Survey content</h1>
+<p>When a harmonised component is added to a survey, its structure including groupings, questions/items, question types, and classifications is preconfigured. These elements can be adjusted as needed (Figure 10).</p>
+<p>To edit survey content:</p>
+<p>Click on a component name in the survey design tree (1).</p>
+<p>Use the pencil icon (2) to edit component metadata.</p>
+<p><strong>Figure 10. Harmonised components in survey</strong></p>
+<p><img alt="Figure 10. Harmonised components in survey" src="../assets/image14.png" /></p>
+<p>Rules (logic and routing)</p>
+<p>Rules define the flow of the survey based on responses. To configure rules:</p>
+<p>Click the Rules button (3).</p>
+<p>Click the plus icon ‘’ to add a rule (Figure 11).</p>
+<p>Select a question and define:</p>
+<p>Answer option(s)</p>
+<p>Value</p>
+<p>Operator (e.g., equals, not equals, greater than)</p>
+<p>Next step (component, question, or endpoint)</p>
+<p>Save the rule using the save icon ‘’ or cancel ‘’ to discard changes. Multiple rules can be defined per component.</p>
+<p><strong>Figure 11. Rules of component in survey</strong></p>
+<p><img alt="Figure 11. Rules of component in survey" src="../assets/image15.svg" /></p>
+<p>Languages and translation</p>
+<p>Harmonised components are currently available in English and Dutch. Additional translations can be entered manually per survey. These translations apply only to the current survey and are not stored globally. Shared surveys retain the entered translations for collaborating users.</p>
+<h1 id="433-harmonised-component">4.3.3. Harmonised component</h1>
+<p>Each component contains one or more questions/items. Each question has configurable properties. The ‘Properties’ table includes:</p>
+<p>Question text</p>
+<p>Question type</p>
+<p>Code</p>
+<p>Reversibility</p>
+<p>Explanatory text</p>
+<p>Grouping</p>
+<p>All properties can be edited using the ‘’ pencil icon (see arrow, Figure 12).</p>
+<p><strong>Figure 12. Question properties of harmonised component</strong></p>
+<p><img alt="Figure 12. Question properties of harmonised component" src="../assets/image16.png" /></p>
+<p>Key elements</p>
+<p>The following elements determine how questions are represented in the survey and referenced during data analysis.</p>
+<p>A code/unique identifier (e.g., AWWorkplezier) used for analysis and data tracking.</p>
+<p>Question type defines how a question and its response options are presented. The available options are (Figure 13):</p>
+<p>Single choice</p>
+<p>Multiple choice</p>
+<p>Open</p>
+<p>Bipolar</p>
+<p>Matrix</p>
+<p>These types correspond to the answer options for the question. Each question in a harmonised component has its question types preassigned to facilitate this process for the user. Based on the selected question type, the properties table will be adjusted.</p>
+<p><strong>Figure 13. Question types</strong></p>
+<p><img alt="Figure 13. Question types" src="../assets/image17.svg" /></p>
+<p>Question types explained</p>
+<p>The following question types determine the structure of questions and the format of their response options within the survey.</p>
+<p>Single choice</p>
+<p>Respondents select one option from a predefined list. Classifications (e.g., scales) are preassigned but can be changed via the list icon.</p>
+<p>Multiple choice</p>
+<p>Respondents can select more than one answer option.</p>
+<p>Open</p>
+<p>Respondents provide a free-text response.</p>
+<p>Bipolar</p>
+<p>Respondents choose between two opposing options.</p>
+<p>Matrix</p>
+<p>Respondents evaluate multiple items using a shared set of answer options.</p>
+<p>Custom answer options can be defined by switching to custom answer options. The option “Add other, namely” enables open input (Figure 14).</p>
+<p>Matrix configuration</p>
+<p>For matrix questions, the Matrix properties table defines:</p>
+<p>Items (rows)</p>
+<p>Answer scale (columns)</p>
+<p>Classification</p>
+<p>Each item has a label and language setting (Figure 15). Items can be:</p>
+<p>Added (plus icon ‘’)</p>
+<p>Reordered (order column)</p>
+<p>Deleted (bin icon ‘’)</p>
+<p><strong>Figure 15. Classification scale points</strong></p>
+<p><img alt="Figure 15. Classification scale points" src="../assets/image18.png" /></p>
+<h1 id="434-add-harmonised-component">4.3.4. Add (harmonised) component</h1>
+<p>After initial creation of a survey, harmonised components can still be added by right-clicking on the bar displaying the name of the survey (header of the survey design tree) and selecting ‘Add harmonised component’ or ‘Add component’.</p>
+<p>Add harmonized component</p>
+<p>Select from the library of categories, concepts, and components. Multiple components can be selected simultaneously (Figure 16).</p>
+<p><strong>Figure 16. Add harmonised component in survey</strong></p>
+<p><img alt="Figure 16. Add harmonised component in survey" src="../assets/image19.svg" /></p>
+<p>Add custom component</p>
+<p>Create a new component if no suitable harmonised component exists (Figure 17). Required fields: Name, definition, and category.</p>
+<p><strong>Figure 17. Create a new custom component in survey</strong></p>
+<p><img alt="Figure 17. Create a new custom component in survey" src="../assets/image2.png" /></p>
+<p>Edit component options</p>
+<p>Right-click a component to:</p>
+<p>Add a question/item</p>
+<p>Delete the component</p>
+<p>Copy the component</p>
+<p>Add question</p>
+<p>To create a new question (Figure 18), specify:</p>
+<p>Name</p>
+<p>Question text</p>
+<p>Question type</p>
+<p>Code</p>
+<p>Explanatory text</p>
+<p>Grouping (optional)</p>
+<p>Questions and components can also be deleted via right-click.</p>
+<p><strong>Figure 18. Create new question in survey</strong></p>
+<p><img alt="Figure 18. Create new question in survey" src="../assets/image20.svg" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.sections", "navigation.top", "search.highlight", "search.suggest", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
