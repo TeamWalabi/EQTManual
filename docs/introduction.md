@@ -13,9 +13,8 @@ The tool is used within the ReGeNL programme, which focuses on regenerative agri
 
 ## Quick Links
 
-[Open EQT](https://regenl.wser.wur.nl/auth/login/){ .md-button .md-button--primary }
-
-[Visit ReGeNL](https://regenl.nl/){ .md-button }
+- <a href="https://regenl.nl/" target="_blank" rel="noopener noreferrer">ReGeNL Website</a>
+- <a href="https://regenl.wser.wur.nl/auth/login/" target="_blank" rel="noopener noreferrer">Open EQT</a>
 
 ## FAIR Data Principles
 

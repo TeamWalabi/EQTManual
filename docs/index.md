@@ -19,25 +19,17 @@ Using EQT, researchers can:
 
 ---
 
-## Workflow Overview
-
-![Workflow](assets/workflow.png)
-
-*Figure 1. EQT workflow overview*
-
----
-
 ## Quick Start
 
 New users typically follow these steps:
 
-1. Request access to EQT
-2. Create a study
-3. Create a survey design
-4. Add harmonised components
-5. Export the survey to Qualtrics
-6. Distribute the survey
-7. Collect and analyse data
+1. [Request access to EQT](https://rmrobbemond-dotcom.github.io/EQTManual/access-to-eqt.html)
+2. [Create a study](https://rmrobbemond-dotcom.github.io/EQTManual/create-study.html)
+3. [Create a survey design](https://rmrobbemond-dotcom.github.io/EQTManual/survey-design.html)
+4. [Add harmonised components]()
+5. [Export the survey to Qualtrics](https://rmrobbemond-dotcom.github.io/EQTManual/export-survey.html)
+6. [Distribute the survey](https://rmrobbemond-dotcom.github.io/EQTManual/distribute-survey.html)
+7. [Collect and analyse data](https://rmrobbemond-dotcom.github.io/EQTManual/data-collection.html)
 
 ---
 

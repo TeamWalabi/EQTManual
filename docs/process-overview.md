@@ -1,14 +1,20 @@
-# 2. Process Overview
+# Process Overview
 
-## 2.1. Workflow
+## Workflow
 
+![Figure 1. Workflow](assets/workflow.png)
 
-
-**Figure 1. Workflow**
-
-![Figure 1. Workflow](assets/image48.png)
-
-The process in the EQT consists of ten steps (Figure 1). The manual covers the first seven steps; the rest of the steps are out of scope. In the first step, the team of researchers make harmonised components available (1). Next, the user will create a study (2) and a survey design (3). The coordinator is responsible for creating the distribution list (4). The distribution list contains a list of individuals to whom the survey can be distributed. After which, the user will create the survey on Qualtrics (5) and use the list to create a distribution with survey links (6). The data is then collected and recorded by the interviewer (7). In step 8, the data from Qualtrics is loaded on Adagio, manually or automatically. One of the advantages of using the EQT is having the model automatically generated in Adagio. The actual data loading is out of scope for this manual. Lastly, the survey data can be accessed by the researcher (9) and is available for viewing on the dashboard (10).
-
+The process in the EQT consists of ten steps. The manual covers the first seven steps; the rest of the steps are out of scope. 
+ 
+1. The standards team makes harmonised components available.
+2. [The survey maker creates a study.](https://rmrobbemond-dotcom.github.io/EQTManual/create-study)
+3. The survey maker creates a survey design.
+4. The coordinator creates a distribution list. The distribution list contains individuals to whom the survey can be distributed.
+5. The survey maker creates the survey in Qualtrics.
+6. The survey maker uses the distribution list to create a survey distribution.
+7. The data is then collected and recorded by the interviewer and/or interviewee.
+8. The coordinator triggers the loading of the collected survey data manually or configures an automatic loading trigger.
+9. The survey data can be accessed by the researcher.
+10. The viewer can assess the information on a dashboard, provided that the project includes a dashboard.
 
 
