@@ -23,7 +23,7 @@ The EQT tool and the manual are developed with the support of the Wageningen Lab
 </a>
 
 <a href="https://regenl.wser.wur.nl/auth/login/" target="_blank" rel="noopener noreferrer">
-  <img src="assets/EQTlogo.png" alt="EQT"
+  <img src="assets/logoEQT.png" alt="EQT"
        style="height:70px;">
 </a>
 
