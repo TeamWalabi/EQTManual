@@ -23,13 +23,13 @@ Using EQT, researchers can:
 
 New users typically follow these steps:
 
-1. [Request access to EQT](https://rmrobbemond-dotcom.github.io/EQTManual/access-to-eqt.html)
-2. [Create a study](https://rmrobbemond-dotcom.github.io/EQTManual/create-study.html)
-3. [Create a survey design](https://rmrobbemond-dotcom.github.io/EQTManual/survey-design.html)
+1. [Request access to EQT](https://teamwalabi.github.io/EQTManual/access-to-eqt.html)
+2. [Create a study](https://teamwalabi.github.io/EQTManual/create-study.html)
+3. [Create a survey design](https://teamwalabi.github.io/EQTManual/survey-design.html)
 4. [Add harmonised components]()
-5. [Export the survey to Qualtrics](https://rmrobbemond-dotcom.github.io/EQTManual/export-survey.html)
-6. [Distribute the survey](https://rmrobbemond-dotcom.github.io/EQTManual/distribute-survey.html)
-7. [Collect and analyse data](https://rmrobbemond-dotcom.github.io/EQTManual/data-collection.html)
+5. [Export the survey to Qualtrics](https://teamwalabi.github.io/EQTManual/export-survey.html)
+6. [Distribute the survey](https://teamwalabi.github.io/EQTManual/distribute-survey.html)
+7. [Collect and analyse data](https://teamwalabi.github.io/EQTManual/data-collection.html)
 
 ---
 

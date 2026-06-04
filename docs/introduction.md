@@ -11,10 +11,28 @@ EQT helps researchers:
 
 The tool is used within the ReGeNL programme, which focuses on regenerative agriculture and sustainable farming innovation in the Netherlands.
 
+The EQT tool and the manual are developed with the support of the Wageningen Lab for Business Informatics.
+
 ## Quick Links
 
-- <a href="https://regenl.nl/" target="_blank" rel="noopener noreferrer">ReGeNL Website</a>
-- <a href="https://regenl.wser.wur.nl/auth/login/" target="_blank" rel="noopener noreferrer">Open EQT</a>
+<div style="display:flex; gap:40px; align-items:center; flex-wrap:wrap;">
+
+<a href="https://regenl.nl/" target="_blank" rel="noopener noreferrer">
+  <img src="assets/logo-ReGeNL-web.png" alt="ReGeNL"
+       style="height:70px;">
+</a>
+
+<a href="https://regenl.wser.wur.nl/auth/login/" target="_blank" rel="noopener noreferrer">
+  <img src="assets/EQTlogo.png" alt="EQT"
+       style="height:70px;">
+</a>
+
+<a href="https://walabi.eu/" target="_blank" rel="noopener noreferrer">
+  <img src="assets/walabi-logo-white.png" alt="Walabi"
+       style="height:70px;">
+</a>
+
+</div>
 
 ## FAIR Data Principles
 
